@@ -13,9 +13,13 @@ int main() {
 }
 
 // Do not change the print() function
-void print(int len, int wth) {
+void print(int &len, int &wth) {
    cout << "Length : " << len 
         << ", Width  : " << wth << endl;
 }
 
 // Implement the Input Function here
+void input(int len, int wth){
+  cin>>"length :" >> len >> "width" >> wth ;
+}
+

@@ -9,4 +9,7 @@ int main() {
           <<  names[r]
           << marks[r] << endl;
  }
+  cout<<setw(5)<<"NO"<<endl;
+  cout<<setw(15)<<"Name"<<endl;
+  cout<<setw(10)<<setprecision(2)<<"Marks"<<endl;
 }
